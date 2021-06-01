@@ -1,0 +1,26 @@
+.weather-serch{
+    width: 100%;
+    margin: 0 0 75px;
+  }
+ 
+  .wather-search .weather-search-bar{
+    display: block;
+    width: 100%;
+    padding: 15px;
+ 
+    background: none;
+    border:none;
+    outline: none;
+    appearance: none;
+ 
+   background-color: rgba(255,255,255,0.2);
+   border-radius: 0 0 25px 25px;
+   margin-top: -20px;
+   box-shadow: o 5px rgba(0,0,0,0.4);
+   color: #313131;
+   transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+ 
+  .wather-search .weather-search-bar :focus{
+    background-color: rgba(255,255,255,0.75);
+  }
